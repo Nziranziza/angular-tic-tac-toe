@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+}
+.col {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col:disabled {
+  opacity: 1;
+  color: inherit;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+.btn-reset {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none
+}
+fieldset {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  width: fit-content;
+}
+fieldset:disabled {
+  opacity: 0.5;
+}
+
+.message {
+  padding-top: 20px;
+  min-height: 40px;
+}
+.success {
+  color: #37c414
+}
+.danger {
+  color: #dd3b12;
+}
